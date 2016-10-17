@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发起活动</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/activity.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+
+</head>
+<body>
+
+    <form class="activity">
+        <h4 class="text-info">活动简介</h4>
+
+        <div class="row">
+            <div class="col-md-5">
+                <textarea class="form-control activity-input" rows="7"></textarea>
+            </div>
+        </div>
+
+        <h4 class="text-info">活动时间</h4>
+
+
+        <div class="time">
+
+            <div class="start-time"><h5 class="text-info">开始时间</h5></div>
+            <div class="input-append date form_datetime" data-date="2012-12-21T15:25:00Z"
+                 data-date-format="dd MM yyyy - HH:ii P">
+                <div class="date-show">
+                    <input class="input-sm form-control" size="25" value=""  type="text">
+                </div>
+                <div class="select-remove">
+                    <button class="btn btn-default btn-sm add-on glyphicon glyphicon-calendar"></button>
+                </div>
+            </div>
+
+            <div class="end-time"><h5 class="text-info">结束时间</h5></div>
+            <div class="input-append date to_datetime" data-date="2012-12-21T15:25:00Z"
+                 data-date-format="dd MM yyyy - HH:ii P">
+                <div class="date-show">
+                    <input class="input-sm form-control" size="25" value="" type="text">
+                </div>
+                <div class="select-remove">
+                    <button class="btn btn-default btn-sm add-on glyphicon glyphicon-calendar"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="participate-select">
+            <div class="participate-title">
+                <h4 class="text-info">参与方式</h4>
+            </div>
+
+            <div class="radio model-all">
+                <label>
+                    <input type="radio" name="participate-way" id="participate-all"
+                           value="all" checked> 所有人
+                </label>
+            </div>
+            <div class="radio model-friends">
+                <label>
+                    <input type="radio" name="participate-way" id="participate-friends"
+                           value="friends">邀请好友
+                </label>
+            </div>
+
+        </div>
+
+
+        <div class="tag-module">
+            <div class="tag-title-module">
+                <h4 class="text-info">添加标签</h4>
+            </div>
+
+            <div class="tag-input-module">
+                <div>
+                    <input class="tag-input input-group-sm" data-role="tagsinput" type="text">
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="activity-button">
+            <button class="btn btn-primary">创建</button>
+            <button class="btn btn-primary activity-cancel-btn">取消</button>
+        </div>
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="js/commonWidget.js"></script>
+    <script src="js/bootstrap-tagsinput.min.js"></script>
+
+
+
+</body>
+</html>

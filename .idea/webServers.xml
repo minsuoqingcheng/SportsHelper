@@ -5,6 +5,9 @@
       <webServer id="1a4f6868-6c9d-4696-9093-355b127c4fee" name="tomcat" url="http://localhost:8081/SportsHelper">
         <fileTransfer port="0" mountedRoot="E:\tomcat\webapps" accessType="MOUNT" />
       </webServer>
+      <webServer id="a7e9427b-de31-4f41-9e4b-a780c45e320e" name="apache" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\workspacePHP" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </project>

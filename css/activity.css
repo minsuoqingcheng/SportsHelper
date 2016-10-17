@@ -1,0 +1,81 @@
+.activity-input{
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+
+
+.time{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+}
+.start-time {
+    height: 90%;
+    margin-bottom: 10%;
+    float: left;
+    margin-left: 5%;
+}
+
+.end-time{
+    float: left;
+    margin-left: 3%;
+
+}
+
+.form_datetime{
+    margin-left: 1%;
+    float: left;
+}
+.to_datetime{
+    margin-left: 1%;
+    float: left;
+}
+
+.date-show{
+    float: left;
+}
+.select-remove{
+    float: right;
+}
+
+
+.participate-select{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 4%;
+}
+.participate-title{
+    float: left;
+}
+.model-all{
+    float: left;
+    margin-left: 1%;
+}
+.model-friends{
+    float: left;
+    padding-top: 15px;
+    margin-left: 1%;
+}
+
+.tag-title-module{
+    float: left;
+    width: 7%;
+}
+
+.tag-input-module{
+    float: left;
+    margin-top: 5px;
+}
+
+
+.activity-button {
+    margin-top: 60px;
+    margin-left: 450px;
+}
+.activity-cancel-btn {
+    margin-left: 10px;
+}
+
+
