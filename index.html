@@ -9,8 +9,9 @@
 </head>
 <body>
 
-    <div id="wrapper">
+<div class="container-fluid">
 
+    <div class="row">
         <header class="main-header">
             <a class="logo" href="index.html">
                 <span class="logo-normal">
@@ -23,20 +24,40 @@
                 <li role="presentation"><a href="#">Messages</a></li>
             </ul>
         </header>
+    </div>
 
 
-        <div class="left-sidebar">
+    <div class="row">
+
+        <div class="col-md-2 left-sidebar">
 
 
-            <div>
-                个人信息、头像
-            </div>
 
-            <div class="panel-group" role="tablist">
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="head-img" src="images/headPic01.jpg">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-3 col-sm-3 col-sm-offset-3 nickname-div">
+                        <h4 class="nickname">imccl</h4>
+                    </div>
+                    <div class="col-md-offset-3 col-md-6 col-sm-6 col-sm-offset-3">
+                        <h5 class="user-work">web开发者</h5>
+                    </div>
+                </div>
+
+
+
+            <div id="accordion" class="panel-group" role="tablist" aria-multiselectable="true">
+
+
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
                         <h4 class="panel-title">
-                            <a class="" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1">
+                            <a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1">
                                 运动数据
                             </a>
                         </h4>
@@ -49,9 +70,9 @@
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div class="panel-group" role="tablist">
+
+
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
                         <h4 class="panel-title">
@@ -69,9 +90,8 @@
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div class="panel-group" role="tablist">
+
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="collapseListGroupHeading3">
                         <h4 class="panel-title">
@@ -87,9 +107,8 @@
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div class="panel-group" role="tablist">
+
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
                         <h4 class="panel-title">
@@ -105,45 +124,103 @@
                         </ul>
                     </div>
                 </div>
+
+
             </div>
-
-
-
 
         </div>
 
-        <div class="content-wrapper">
 
-            <div class="sum-nav">首页-></div>
+        <div class="col-md-offset-2">
 
-            <div class="row">
-                <div class="col-lg-12">
+            <a>首页</a>
+
+            <div class="">
+                <div class="col-md-11">
                     <div class="ibox">
                         <div class="ibox-content">
                             <a href="article.html" class="btn-link">
-                                <h2>
-                                    想知道宁泽涛每天游多少圈？送他 Misfit 最新款 Speedo Shine
-                                </h2>
+                                <h4 class="">
+                                    <strong>上班族如何安排时间才能每天都锻炼？</strong>
+                                </h4>
                             </a>
-                            <div class="small m-b-xs">
-                                <strong>高 晨</strong> <span class="text-muted"><span class="glyphicon glyphicon-time"></span> 3 小时前</span>
+                            <div class="row title-info">
+                                <div class="col-sm-offset-1">
+                                    <strong>张 三</strong>
+                                    <span>，程序猿</span>
+                                </div>
+
                             </div>
-                            <p>
-                                就算你敢带着 Apple Watch 下水游泳，它也不能记录你游了多少圈。 夏天刚来时就不停地听到有人提起“有没有在我游泳的时候可以帮忙数圈的设备”，今天 Misfit 终于赶在夏天结束之前推出可追踪游泳运动的新款 Shine。这款新设备是 Misfit 与泳衣品牌 Speedo （速比涛）合作推出，因此被命名为 Speedo Shine。
+                            <p class="title-introduce">
+                                含胸、驼背、头前伸——在当今社会中每个人的身体姿态都或多或少地有着这个问题，而且这个趋势更趋向于年轻化，如成天对着电脑的办公室工作人群、坐在课桌前的学生党以及在哪儿都在玩手机的低头族。这是一种不良的身体姿态，而一个错位的身体姿态又会导致肌肉力量的不平衡，进而加重了身体姿态的问题。
+                                作者：康复师 于梅君
+                                链接：https://www.zhihu.com/question/32078683/answer/126960398
+                                来源：知乎
+                                著作权归作者所有，转载请联系作者获得授权。<strong>...</strong><a>显示全部</a>
                             </p>
                             <div class="row">
-                                <div class="col-md-6">
-                                    <h5>标签：</h5>
-                                    <button class="btn btn-primary btn-xs" type="button">Apple Watch</button>
-                                    <button class="btn btn-white btn-xs" type="button">速比涛</button>
+                                <div class="col-md-2 title-remark">
+                                    <i class="glyphicon glyphicon-comment"> </i> 56 评论
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="small text-right">
-                                        <h5>状态：</h5>
-                                        <div> <i class="glyphicon glyphicon-comment"> </i> 56 评论 </div>
-                                        <i class="glyphicon glyphicon-eye-open"> </i> 144 浏览
-                                    </div>
+                                <div class="col-md-2 title-browse">
+                                    <i class="glyphicon glyphicon-eye-open"> </i> 144 浏览
                                 </div>
+                                <div class="col-md-2">
+                                    <i class="glyphicon glyphicon-thumbs-up"> </i> 60赞
+                                </div>
+                                <div class="col-md-7"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="">
+                <div class="col-md-11">
+                    <div class="ibox">
+                        <div class="ibox-content">
+                            <a href="article.html" class="btn-link">
+                                <h4 class="">
+                                    <strong>在家健身，有什么方便好用的器材推荐？</strong>
+                                </h4>
+                            </a>
+                            <div class="row title-info">
+                                <div class="col-sm-offset-1">
+                                    <strong>李 四</strong>
+                                    <span>，程序猿</span>
+                                </div>
+
+                            </div>
+
+                            <div class="row with-pic-div">
+                                <div class="col-md-3">
+                                    <img class="content-img img-rounded" src="images/sitting-pic.jpg" alt="图片正在加载">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="title-introduce content-word">
+                                        含胸、驼背、头前伸——在当今社会中每个人的身体姿态都或多或少地有着这个问题，而且这个趋势更趋向于年轻化，如成天对着电脑的办公室工作人群、坐在课桌前的学生党以及在哪儿都在玩手机的低头族。这是一种不良的身体姿态，而一个错位的身体姿态又会导致肌肉力量的不平衡，进而加重了身体姿态的问题。
+                                        作者：康复师 于梅君
+                                        来源：知乎
+                                        著作权归作者所有，转载请联系作者获得授权。<strong>...</strong><a>显示全部</a>
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-2 title-remark">
+                                    <i class="glyphicon glyphicon-comment"> </i> 56 评论
+                                </div>
+                                <div class="col-md-2 title-browse">
+                                    <i class="glyphicon glyphicon-eye-open"> </i> 144 浏览
+                                </div>
+                                <div class="col-md-2">
+                                    <i class="glyphicon glyphicon-thumbs-up"> </i> 60赞
+                                </div>
+                                <div class="col-md-7"></div>
                             </div>
                         </div>
                     </div>
@@ -152,10 +229,15 @@
 
             </div>
         </div>
+
+
     </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

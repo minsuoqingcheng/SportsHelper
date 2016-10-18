@@ -1,3 +1,4 @@
+
 h1,h2,h3,h4,h5,h6{
     font-weight:100
 }
@@ -23,16 +24,26 @@ h3,h4,h5{
     margin-top:5px;font-weight:600
 }
 
+
+html{
+    overflow-x: hidden;
+}
+
 .logo-name {
     color:#e6e6e6;
-    font-size:90px;
-    font-weight:400;
+    font-size:650%;
     letter-spacing:-10px;
     margin-bottom:0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.logo-name-bottom{
+    padding-right: 3%;
+}
 .welcome {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.login-name,.login-pwd,.login-btn,.login-register{
+    margin-left: 5%;
 }

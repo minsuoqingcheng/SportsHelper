@@ -5,22 +5,19 @@
 }
 
 .main-header{
-    background: #f6f7e0;
+    background: white;
     width: 100%;
     height: 70px;
 }
 .left-sidebar{
-    position: absolute;
-    background: #d9d9d9;
-    height: 100%;
-    width: 200px;
+    background: whitesmoke;
+    padding-bottom: 100%;
 }
 .content-wrapper {
     position: relative;
     margin-left: 16%;
     margin-top: 0.3%;
-    background: #f3f3f4;
-    width: 85%;
+    width: 65%;
     height: 100%;
 
 }
@@ -65,11 +62,92 @@
     border-width: 1px 0;
 }
 
+.head-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    border: solid 3px white;
+}
+.nickname-div{
+    height: 26px;
+}
+.user-work{
+    padding-left: 10px;
+}
+
+/*该写bootstrap属性*/
+.list-group-item{
+    background: whitesmoke;
+}
+
+#collapseListGroup1,#collapseListGroup2,#collapseListGroup3,#collapseListGroup4{
+    text-align: center;
+}
+#accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+#accordion .panel-title a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #9087e1;
+    text-align: center;
+    padding: 15px 48px 15px 20px;
+    background:  whitesmoke;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a:hover{
+    font-size: 21px;
+    color: #9b93f2;
+}
+
+
+.title-info{
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+
+.title-browse{
+    padding-right: 5%;
+}
+.title-remark{
+    padding-left: 4%;
+}
+
+.content-img{
+    width: 110%;
+    height: 90%;
+}
+.content-word{
+
+}
+.with-pic-div{
+    margin-bottom: 2%;
+}
+.title-introduce{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
 
 
 
+html{
+    overflow-x: hidden;
+}
 
 
+p{
+    text-indent: 2em;
+}
 
 a{
     text-decoration:none;
@@ -80,9 +158,17 @@ a:link{
 a:visited{
     text-decoration:none;
 }
-a:hover{
-    text-decoration:none;
-}
+
 a:active{
     text-decoration:none;
 }
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+
+}
+
+
+
+
+

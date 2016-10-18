@@ -8,41 +8,75 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <div class="middle text-center">
 
-        <div class="logo-name">
-            <h2 class="logo-name">WE</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-5"></div>
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <h2 class="logo-name center-block">&nbsp;&nbsp;&nbsp;WE</h2>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-5"></div>
+    </div>
+</div>
+
+<div>
+    <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-5"></div>
+        <div class="col-md-2 col-sm-2 col-xs-2">
             <h2 class="logo-name">SPORT</h2>
         </div>
+        <div class="col-md-5 col-sm-5 col-xs-5"></div>
+    </div>
 
-        <h3 class="welcome">欢迎使用WE-SPORT</h3>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5 col-xs-3 col-xs-offset-5">
+            <h3 class="welcome">欢迎使用WE-SPORT</h3>
+        </div>
+    </div>
 
-        <form role="form" action="php/DataBaseTool.php" method="post" onsubmit="return doSubmit(this)">
-            <div class="row">
-                <div class="userName form-group col-md-2 col-md-offset-5">
-                    <input name="userName" id="userName" class="form-control" type="text" placeholder="用户名">
-                </div>
-                <div class="form-group col-md-2 col-md-offset-5">
-                    <input name="passWord" id="passWord" class="form-control" type="password" placeholder="密码">
-                </div>
-                <div class="form-group col-md-2 col-md-offset-5">
-                    <button class="btn btn-success btn-block" type="submit">登录</button>
-                </div>
+</div>
+
+
+<div class="row">
+    <form role="form" action="index.html" method="post" onsubmit="return doSubmit(this)">
+        <div class="row login-name">
+
+            <div class="userName form-group col-md-2 col-md-offset-5 col-sm-3 col-sm-offset-5
+                                        col-xs-2 col-xs-offset-5">
+                <input name="userName" id="userName" class="form-control" type="text" placeholder="用户名">
             </div>
-        </form>
+        </div>
 
+        <div class="row login-pwd">
+            <div class="form-group col-md-2 col-md-offset-5 col-sm-3 col-sm-offset-5
+                                        col-xs-2 col-xs-offset-5">
+                <input name="passWord" id="passWord" class="form-control" type="password" placeholder="密码">
+            </div>
+        </div>
+        <div class="row login-btn">
+            <div class="form-group col-md-2 col-md-offset-5 col-sm-3 col-sm-offset-5
+                                        col-xs-2 col-xs-offset-5">
+                <button class="btn btn-success btn-block" type="submit">登录</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="row login-register">
+    <div class="col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5
+                                        col-xs-3 col-xs-offset-5">
         <p class="forget-register">
             <a href="#">忘记密码了？</a>
             |
             <a href="#">注册一个新账号</a>
         </p>
-
     </div>
+</div>
 
 
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/login.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/login.js"></script>
 
 </body>
 </html>
