@@ -1,0 +1,25 @@
+
+.shareTopic-content-input{
+    margin-left: -5%;
+}
+
+.shareTopic-hr-split{
+    margin-bottom: -10%;
+    margin-top: 10px;
+}
+
+.shareTopic-input-intro{
+    margin-top: 1%;
+    color: #999;
+    font-weight: bold;
+}
+.my-hr{
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+.shareTopic-tip{
+    color: #999;
+    font-weight: 400;
+    font-size: small;
+}

@@ -11,7 +11,7 @@
 }
 .left-sidebar{
     background: whitesmoke;
-    padding-bottom: 100%;
+    padding-bottom: 15%;
 }
 .content-wrapper {
     position: relative;
@@ -75,10 +75,7 @@
     padding-left: 10px;
 }
 
-/*该写bootstrap属性*/
-.list-group-item{
-    background: whitesmoke;
-}
+
 
 #collapseListGroup1,#collapseListGroup2,#collapseListGroup3,#collapseListGroup4{
     text-align: center;
@@ -124,11 +121,12 @@
 }
 
 .content-img{
-    width: 110%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
 }
 .content-word{
-
+    margin-left: -5%;
 }
 .with-pic-div{
     margin-bottom: 2%;
@@ -137,6 +135,158 @@
     font-size: 13px;
     letter-spacing: 1px;
 }
+
+
+.allShare-topic-next{
+    margin-top: -3%;
+}
+.allShare-topic-sort{
+    color: #999;
+    font-size: 13px;
+}
+
+
+.friendList-oneRow{
+    background: #f3f3f4;
+    width: 100%;
+    height: 120%;
+
+}
+.friendList-friend-pic{
+    width: 4%;
+}
+.friends-search{
+    margin-top: 2%;
+}
+#add-friend{
+    margin-top: 4%;
+}
+
+
+/*朋友圈*/
+.socialCircle-send{
+    margin-left: -3%;
+}
+.socialCircle-refresh{
+    padding-left: 3%;
+}
+.socialCircle-head-img{
+    width: 80.5%;
+    height: 45px;
+}
+.socialCircle-sendDate{
+    color: #888;
+    font-size: 90%;
+}
+.socialCircle-basic{
+    margin-left: -3%;
+}
+.socialCircle-name{
+    font-size: 130%;
+}
+/*"open sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+.socialCircle-word{
+    font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #676a6c;
+}
+.socialCircle-remark-btn{
+    margin-left: -3%;
+}
+.socialCircle-table{
+    background: whitesmoke;
+    margin-top: 1%;
+}
+.socialCircle-td{
+    border-top: none !important;
+}
+.socialCircle-content-img{
+    padding: 1%;
+}
+
+
+/*makePlan*/
+.makePlan-todo-list{
+    margin-left: 2%;
+}
+.makePlan-left-add{
+    background: rgba(0, 0, 0, 0.026);
+    border-right: 1px solid #DDD;;
+}
+.makePlan-right-tasks{
+
+}
+.makePlan-list-item{
+    background: white !important;
+}
+.makePlan-list-item:hover{
+    color: #555;
+    text-decoration: none;
+    background-color: #f5f5f5 !important;
+}
+.makePlan-add-btn{
+    color: white;
+    background-color: #101215 !important;
+    border-color: #101215;
+}
+.makePlan-add-btn:hover{
+    color: white !important;
+}
+.makePlan-content-input{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.makePlan-type-choose{
+    margin-top: 2%;
+}
+.makePlan-task-item{
+    background: #FFF;
+    border-left: 3px solid #FFF;
+    margin-bottom: 10px;
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.makePlan-first-task{
+    margin-top: 3%;
+}
+.makePlan-next-task{
+    margin-top: 10%;
+}
+.makePlan-task-text{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+}
+.makePlan-task-footer{
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    background: #f8f8f8;;
+    padding-right: 2%;
+}
+.task-status-success:hover{
+    color: #706ef7;
+}
+.task-status-cancel{
+    margin-right: 2%;
+}
+.makePlan-task-completed{
+    background: #FFF2C5;
+}
+.makePlan-separate-line{
+    border-right: 1px solid #DDD;
+}
+
+/*任务左边颜色的设定*/
+.makePlan-task-default{
+    border-left-color: #1b1e24;
+}
+.makePlan-task-success{
+    border-left-color: #95b75d;
+}
+
 
 
 
@@ -170,5 +320,9 @@ a:hover,a:focus{
 
 
 
+/*该写bootstrap属性*/
+.list-group-item{
+    background: whitesmoke;
 
+}
 

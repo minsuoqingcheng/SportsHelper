@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/activity.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="css/datacollect.css">
+    <link rel="stylesheet" href="css/shareTopic.css">
+    <link rel="stylesheet" href="css/totalActivity.css">
+
 </head>
 <body>
 
@@ -30,9 +37,6 @@
     <div class="row">
 
         <div class="col-md-2 left-sidebar">
-
-
-
 
                 <div class="row">
                     <div class="col-md-2">
@@ -64,9 +68,9 @@
                     </div>
                     <div style="" aria-expanded="false" id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
                         <ul class="list-group">
-                            <li class="list-group-item">收集数据</li>
-                            <li class="list-group-item">统计分析</li>
-                            <li class="list-group-item">制定目标</li>
+                            <li class="list-group-item"><a href="#" onclick="showTodayData()">每日运动</a></li>
+                            <li class="list-group-item"><a href="#" onclick="dataStatistic()">统计分析</a></li>
+                            <li class="list-group-item"><a href="#" onclick="makePlan()">制定目标</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,10 +87,9 @@
                     </div>
                     <div style="" aria-expanded="false" id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
                         <ul class="list-group">
-                            <li class="list-group-item">活动广场</li>
-                            <li class="list-group-item">我在其中</li>
-                            <li class="list-group-item">由我发起</li>
-                            <li class="list-group-item">发起活动</li>
+                            <li class="list-group-item"><a href="#" onclick="totalActivity()">活动广场</a></li>
+                            <li class="list-group-item"><a href="#" onclick="myActivity()">我的活动</a></li>
+                            <li class="list-group-item"><a href="#" onclick="launchActivity()">发起活动</a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,8 +105,8 @@
                     </div>
                     <div style="" aria-expanded="false" id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
                         <ul class="list-group">
-                            <li class="list-group-item">大家分享</li>
-                            <li class="list-group-item">我要发布</li>
+                            <li class="list-group-item"><a href="#" onclick="allShareTopic()">大家分享</a></li>
+                            <li class="list-group-item"><a href="#" onclick="shareTopic()">我要发布</a></li>
                         </ul>
                     </div>
                 </div>
@@ -119,8 +122,8 @@
                     </div>
                     <div style="" aria-expanded="false" id="collapseListGroup4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
                         <ul class="list-group">
-                            <li class="list-group-item">好友列表</li>
-                            <li class="list-group-item">好友分享</li>
+                            <li class="list-group-item"><a href="#" onclick="friendList()">好友列表</a></li>
+                            <li class="list-group-item"><a href="#" onclick="socialCircle()">好友分享</a></li>
                         </ul>
                     </div>
                 </div>
@@ -131,7 +134,7 @@
         </div>
 
 
-        <div class="col-md-offset-2">
+        <div class="col-md-10 main-container">
 
             <a>首页</a>
 
@@ -238,6 +241,13 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/contentReplace.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/bootstrap-tagsinput.min.js"></script>
+<script src="js/commonWidget.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/myChart.js"></script>
+
 
 </body>
 </html>

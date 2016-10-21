@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据收集</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/datacollect.css">
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-10">
+
+        <div id="todayData">
+
+        <div class="row">
+            <h4 class="text-primary">今日运动</h4>
+            <hr/>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-title">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5>运动距离</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="ibox-content">
+
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h2>4000米</h2>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <span class="text-info">增长11%</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-title">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5>运动步数</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="ibox-content">
+
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h2>39000步</h2>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <span class="text-danger">下降1%</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="ibox">
+                    <div class="ibox-title">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h5>运动时长</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="ibox-content">
+
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h2>3小时14分</h2>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <span class="text-success">增长11%</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class="col-md-1">
+                    目标完成率50%
+                </div>
+                <div class="col-md-10">
+                    <canvas id="myChart"></canvas>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <h4 class="text-primary">好友排行</h4>
+            <hr/>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 class="text-danger" align="right">第一名：</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="head-rank-pic" src="images/sports01.jpg">
+                    </div>
+                    <div class="col-md-7 rank-people-name">
+                        <a>老大</a>
+                    </div>
+                </div>
+                <div class="row activity-rank">
+                    <div class="col-md-3">
+                        <h5 class="text-danger" align="right">第二名：</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="head-rank-pic" src="images/code.jpg">
+                    </div>
+                    <div class="col-md-7 rank-people-name">
+                        <a>小二</a>
+                    </div>
+                </div>
+                <div class="row activity-rank">
+                    <div class="col-md-3">
+                        <h5 class="text-danger" align="right">第三名：</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="head-rank-pic" src="images/sports01.jpg">
+                    </div>
+                    <div class="col-md-7 rank-people-name">
+                        <a>张三</a>
+                    </div>
+                </div>
+                <div class="row activity-rank">
+                    <div class="col-md-3 activity-rank">
+                        <h5 class="text-danger" align="right">第四名：</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="head-rank-pic" src="images/code.jpg">
+                    </div>
+                    <div class="col-md-7 rank-people-name">
+                        <a>李四</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 activity-rank">
+                        <h5 class="text-danger" align="right">第五名：</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="head-rank-pic" src="images/sports01.jpg">
+                    </div>
+                    <div class="col-md-7 rank-people-name">
+                        <a>王五</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-8 activity-rank">
+                <span class="rank-encourage">没有进入排行榜?赶紧<strong><a>制定计划</a></strong>超越吧！</span>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/myChart.js"></script>
+
+
+</body>
+</html>

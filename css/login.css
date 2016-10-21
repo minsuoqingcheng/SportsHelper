@@ -36,14 +36,14 @@ html{
     margin-bottom:0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.logo-name-bottom{
-    padding-right: 3%;
-}
+
 .welcome {
     margin-bottom: 5%;
     margin-left: 20%;
 }
 
+
 .login-name,.login-pwd,.login-btn,.login-register{
     margin-left: 5%;
 }
+

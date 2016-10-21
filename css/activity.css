@@ -1,8 +1,32 @@
+
+
 .activity-input{
     margin-top: 1%;
     margin-left: 8%;
     margin-bottom: 1%;
 }
+
+.form_datetime{
+
+    margin-left: -20%;
+}
+
+.to_datetime{
+    margin-left: -20%;
+    float: left;
+}
+
+.select-remove{
+    margin-left: -11.8%;
+}
+
+.activity-cancel-btn {
+    margin-left: -10%;
+    padding-left: -10%;
+}
+
+/*
+
 
 
 .time{
@@ -11,9 +35,7 @@
     height: 40px;
 }
 .start-time {
-    height: 90%;
     margin-bottom: 10%;
-    float: left;
     margin-left: 5%;
 }
 
@@ -23,21 +45,13 @@
 
 }
 
-.form_datetime{
-    margin-left: 1%;
-    float: left;
-}
-.to_datetime{
-    margin-left: 1%;
-    float: left;
-}
+
+
 
 .date-show{
     float: left;
 }
-.select-remove{
-    float: right;
-}
+
 
 
 .participate-select{
@@ -74,8 +88,7 @@
     margin-top: 60px;
     margin-left: 450px;
 }
-.activity-cancel-btn {
-    margin-left: 10px;
-}
 
+
+*/
 

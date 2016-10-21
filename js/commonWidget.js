@@ -29,15 +29,18 @@ $.fn.datetimepicker.defaults = {
 };
 
 $(".form_datetime").datetimepicker({
-    format: "yyyy MM dd - hh:mm",
-    pickTime:true,
-    weekStart: 1,
-    todayBtn: true,
-    autoclose: 1,
-    todayHighlight: 1,
-    startView: 1,
-    maxView:3,
-    pickerPosition: "bottom-left"
+
+
+
+        format: "yyyy MM dd - hh:mm",
+        pickTime:true,
+        weekStart: 1,
+        todayBtn: true,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 1,
+        maxView:3,
+        pickerPosition: "bottom-left"
 });
 
 $(".to_datetime").datetimepicker({

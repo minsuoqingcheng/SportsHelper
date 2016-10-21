@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好友列表</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-10">
+
+        <div id="friendList">
+
+            <div class="row">
+                <h4 class="text-info">好友列表</h4>
+            </div>
+
+            <hr/>
+
+            <div class="col-md-10 tabs-container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#all-friend" aria-expanded="true">所有好友</a>
+                    </li>
+                    <li class=""><a data-toggle="tab" href="#recent-friend" aria-expanded="false">最近联系</a>
+                    </li>
+                    <li class=""><a data-toggle="tab" href="#add-friend" aria-expanded="false">添加好友</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+
+                    <div id="all-friend" class="row tab-pane active">
+
+                        <div class="friends-search">
+                            <div class="col-md-7"></div>
+                            <div class="col-md-3">
+                                <input class="form-control" type="text" placeholder="请输入好友名字查找">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-success">搜索</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-hover friendList-nameA">
+                                <thead><span class="text-info">A</span></thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">array</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">阿斯玛</span>
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-hover friendList-next friendList-nameB">
+                                <thead><span class="text-info">B</span></thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">beta</span>
+                                        </a>
+
+                                    </td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-hover friendList-next friendList-nameC">
+                                <thead><span class="text-info">C</span></thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">carry</span>
+                                        </a>
+
+                                    </td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+
+                    <div id="recent-friend" class="row tab-pane">
+
+                        <div class="friends-search">
+                            <div class="col-md-7"></div>
+                            <div class="col-md-3">
+                                <input class="form-control" type="text" placeholder="请输入好友名字查找">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-success">搜索</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-hover friendList-three-day">
+                                <thead><span class="text-info">3日内</span></thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">merry</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">Simon</span>
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-hover friendList-one-week">
+                                <thead><span class="text-info">1周内</span></thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">张三</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">李四</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img class="friendList-friend-pic" src="images/sports01.jpg">
+                                            <span class="friendList-friend-name">王五</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div id="add-friend" class="row tab-pane">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" placeholder="请输入查找条件">
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-info">查找</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
